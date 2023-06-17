@@ -7,7 +7,6 @@ face_cascade = cv2.CascadeClassifier(cv2.data.haarcascades + 'haarcascade_fronta
 img = cv2.imread("Image.jpg")
 image=cv2.resize(img,(500,350))
 
-
 # Convert the image to grayscale
 gray = cv2.cvtColor(image,cv2.COLOR_BGR2GRAY)
 
